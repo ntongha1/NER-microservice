@@ -1,0 +1,16 @@
+{
+
+    "medicare_commercial":{
+        "tag_map_path":"models/medicare_commercial_tag_encoder.pickle"
+    },  
+    "commercial_only":{
+        "tag_map_path":"models/commercial_only_tag_encoder.pickle"
+    },
+    "medicare_only":{
+        "tag_map_path":"models/medicare_only_tag_encoder.pickle"
+    },
+    "partial_overlapping_logic_data_path":"models/partial_overlap_logic.json",
+    "pipeline_class":"FusedMedicareCommercialModelPipeline",
+    "model_path":"models/fused_model.pt",
+    "heirarchy_rule_path": "models/hierarchy_rule.pickle"
+}

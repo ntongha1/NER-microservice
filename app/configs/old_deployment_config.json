@@ -1,0 +1,8 @@
+{
+    "tag_map_file": "icd10_tags_map.json",
+    "tag_map_path":"resources/icd10_tags_map.json",
+    "model":"enseble-ner-model.pt",
+    "model_path":"resources/enseble-ner-model.pt",
+    "pipeline_class": "OldDeploymentPipeline"
+
+}

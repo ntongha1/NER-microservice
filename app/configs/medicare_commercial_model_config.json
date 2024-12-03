@@ -1,0 +1,18 @@
+{
+
+    "medicare_commercial_model":{
+        "tag_map_path":"models/medicare_commercial_tag_encoder.pickle",
+        "model_path":"models/medicare_commercial_icds_model.pt"
+    },
+    "commercial_only_model":{
+        "tag_map_path":"models/commercial_only_tag_encoder.pickle",
+        "model_path":"models/commercial_only_icds_model.pt"
+    },
+    "medicare_only_model":{
+        "tag_map_path":"models/medicare_only_tag_encoder.pickle",
+        "model_path":"models/medicare_only_icds_model.pt"
+    },
+    "partial_overlapping_logic_data_path":"models/partial_overlap_logic.json",
+    "pipeline_class":"MedicareCommercialMultiModelPipeline"
+
+}

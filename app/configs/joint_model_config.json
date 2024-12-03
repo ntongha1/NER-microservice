@@ -1,0 +1,9 @@
+{
+
+    "joint_model_path": "models/joint-model.pt",
+    "negation_model_path": "models/negation-model.pt",
+    "tag_encoders_path": "models/tag-encoders.pickle",
+    "partial_overlapping_logic_data_path": "models/partial_overlap_logic.json",
+    "pipeline_class": "JointModelPipeline",
+    "heirarchy_rule_path": "models/hierarchy_rule.pickle"
+}

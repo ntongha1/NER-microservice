@@ -1,0 +1,20 @@
+{
+
+    "medicare_commercial_model":{
+        "tag_map_path":"models/medicare_commercial_tag_encoder.pickle",
+        "model_path":"models/medicare_commercial_model_split.pt"
+    },
+    "commercial_only_model":{
+        "tag_map_path":"models/commercial_only_tag_encoder.pickle",
+        "model_path":"models/commercial_only_model_split.pt"
+    },
+    "medicare_only_model":{
+        "tag_map_path":"models/medicare_only_tag_encoder.pickle",
+        "model_path":"models/medicare_only_model_split.pt"
+    },
+    "negation_model_path": "models/disease-negation-model.pt",
+    "partial_overlapping_logic_data_path":"models/partial_overlap_logic.json",
+    "heirarchy_rule_path": "models/hierarchy_rule.pickle",
+    "pipeline_class":"SplitModelPipeline"
+
+}
